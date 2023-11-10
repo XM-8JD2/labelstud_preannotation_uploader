@@ -55,6 +55,8 @@ notes.json (export the project in LabelStud to YOLO data set format to obtain):
 4. Fill in the parameters of the main function in `labelstud_preannotation_uploader_3.py` as the parameters required in your use case (width, height) are the width and height of the data set image)
 `main('you labelstud key','localhost:8080', 'you labelstud task name', 'width', 'height')`
 
+5.implement `python labelstud_preannotation_uploader_3.py`
+
 ---
 
 limit:
