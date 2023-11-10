@@ -60,7 +60,7 @@ notes.json (export the project in LabelStud to YOLO data set format to obtain):
 ---
 
 limit:
-- All data set files of list items must have the same width and height
+- All data set files of list items must have the same width and height(For example, 640*450?)
 - Unable to import confidence output from yolo
 
 
