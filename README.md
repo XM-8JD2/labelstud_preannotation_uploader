@@ -5,7 +5,7 @@ Instructions:
 1. Make yolo save the reasoning as a file using a format similar to this
 `python detect.py --weights "modelPath" --source "contentPath" --save-txt`
 
-2. Import the image into a project of LabelStud, remember the name of the project, and select the template as "Object Detection with Bounding Boxes".
+2. Import the data set image into a project of LabelStud, remember the name of the project, and select the template as "Object Detection with Bounding Boxes".
 
 3. Place `labelstud_preannotation_uploader_3.py` in a directory with the following structure:
 ```
