@@ -1,8 +1,6 @@
 # labelstud_preannotation_uploader
 Import pre-annotations output by YOLOv5 into LabelStud via the LabelStud API.
 
-Import pre-annotations output by YOLOv5 into LabelStud via the LabelStud API.
-
 Instructions:
 1. Make yolo save the reasoning as a file using a format similar to this
 `python detect.py --weights "modelPath" --source "contentPath" --save-txt`
