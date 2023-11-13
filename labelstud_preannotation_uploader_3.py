@@ -21,7 +21,7 @@ def get_project_id(name, uri, key):
 def get_all_task_ids_for_project(projectID, uri, key):
     print('projectID')
     print(projectID)
-    url = 'http://' + uri + '/api/tasks/?project=' + str(projectID)
+    url = 'http://' + uri + '/api/tasks/?project=' + str(projectID) + "&page_size=99999"
     headers = {'Authorization': 'Token ' + key}
 
     response = requests.get(url, headers=headers)
